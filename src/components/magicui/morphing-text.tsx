@@ -100,10 +100,13 @@ const Texts: React.FC<Pick<MorphingTextProps, "texts">> = ({ texts }) => {
       <span
         className="absolute inset-x-0 top-0 m-auto inline-block w-full"
         ref={text1Ref}
+        data-oid="v_sfmqz"
       />
+
       <span
         className="absolute inset-x-0 top-0 m-auto inline-block w-full"
         ref={text2Ref}
+        data-oid="ph2wezn"
       />
     </>
   );
@@ -114,9 +117,10 @@ const SvgFilters: React.FC = () => (
     id="filters"
     className="fixed h-0 w-0"
     preserveAspectRatio="xMidYMid slice"
+    data-oid="6u7e3om"
   >
-    <defs>
-      <filter id="threshold">
+    <defs data-oid="3sjknhi">
+      <filter id="threshold" data-oid="sncpal1">
         <feColorMatrix
           in="SourceGraphic"
           type="matrix"
@@ -124,6 +128,7 @@ const SvgFilters: React.FC = () => (
                   0 1 0 0 0
                   0 0 1 0 0
                   0 0 0 255 -140"
+          data-oid="1igtipx"
         />
       </filter>
     </defs>
@@ -139,8 +144,9 @@ export const MorphingText: React.FC<MorphingTextProps> = ({
       "relative mx-auto h-16 w-full max-w-screen-md text-center font-sans text-[40pt] font-bold leading-none [filter:url(#threshold)_blur(0.6px)] md:h-24 lg:text-[6rem]",
       className,
     )}
+    data-oid="4nnwd8v"
   >
-    <Texts texts={texts} />
-    <SvgFilters />
+    <Texts texts={texts} data-oid="dk5l0.i" />
+    <SvgFilters data-oid="z2wetug" />
   </div>
 );

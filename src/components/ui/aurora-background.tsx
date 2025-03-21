@@ -14,15 +14,16 @@ export const AuroraBackground = ({
   ...props
 }: AuroraBackgroundProps) => {
   return (
-    <main>
+    <main data-oid="cdd1pdn">
       <div
         className={cn(
           "relative flex flex-col h-[100vh] items-center justify-center bg-background/95 text-foreground transition-bg",
-          className
+          className,
         )}
         {...props}
+        data-oid="_.10uw0"
       >
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden" data-oid="58oci5:">
           <div
             className={cn(
               `
@@ -38,8 +39,9 @@ export const AuroraBackground = ({
               pointer-events-none
               absolute -inset-[10px] opacity-50`,
               showRadialGradient &&
-                `[mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,transparent_70%)]`
+                `[mask-image:radial-gradient(ellipse_at_100%_0%,black_10%,transparent_70%)]`,
             )}
+            data-oid="pri4bza"
           />
         </div>
         {children}
