@@ -37,7 +37,7 @@ function HomePage() {
       />
 
       <div
-        className="absolute inset-0 flex items-center justify-center bg-white dark:bg-slate-950 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+        className="absolute inset-0 flex items-center justify-center bg-white dark:bg-slate-950 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] h-[1046px] w-[1488px] rounded-[52px]"
         data-oid="_15039e"
       />
 

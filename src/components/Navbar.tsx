@@ -123,6 +123,7 @@ export default function Navbar() {
               className="mx-2 h-6"
               data-oid="2yg:lcq"
             />
+
             <ModeToggle data-oid="c_..sdg" />
           </motion.div>
 
@@ -145,6 +146,7 @@ export default function Navbar() {
                       className="h-5 w-5 text-primary"
                       data-oid="zu:x.04"
                     />
+
                     <span data-oid=".8e7inq">TanStack Start</span>
                   </SheetTitle>
                 </SheetHeader>

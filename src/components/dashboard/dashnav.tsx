@@ -151,6 +151,7 @@ const OrganizationSwitcher = () => {
                   alt={selectedOrg.label}
                   data-oid="7mn8de1"
                 />
+
                 <AvatarFallback
                   className="rounded-lg bg-gradient-to-r from-blue-500 to-purple-500"
                   data-oid="z4.pr5y"
@@ -194,6 +195,7 @@ const OrganizationSwitcher = () => {
                 placeholder="Search organization..."
                 data-oid=".ti-thb"
               />
+
               <CommandList data-oid="b-3i.ri">
                 <CommandEmpty data-oid="t-jckq5">
                   No organization found.
@@ -215,6 +217,7 @@ const OrganizationSwitcher = () => {
                           alt={org.label}
                           data-oid="kvov6v2"
                         />
+
                         <AvatarFallback
                           className="rounded-lg bg-gradient-to-r from-blue-500 to-purple-500"
                           data-oid="1_lt5rb"
@@ -341,6 +344,7 @@ const UserSwitcher = () => {
                   alt="@shadcn"
                   data-oid="14iph7p"
                 />
+
                 <AvatarFallback className="rounded-lg" data-oid="a0a6lju">
                   SC
                 </AvatarFallback>
@@ -381,6 +385,7 @@ const UserSwitcher = () => {
                     alt="@shadcn"
                     data-oid="5s9--.i"
                   />
+
                   <AvatarFallback className="rounded-lg" data-oid="9e:nr_x">
                     SC
                   </AvatarFallback>
